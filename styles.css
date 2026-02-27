@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    font-family: 'Inter', Ubuntu, 'Segoe UI', sans-serif;
+}
+
+.Page{
+    background-color: #c1c4ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 20px;
+}
+h2{
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Interligne{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.Section_Supérieure{
+    width: 1000px;
+    height: 400px;
+    display: flex;
+}
+.Bloc_Bleu{
+    width: 25%;
+    background-color:#B9D5E2 ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Bloc_Gris{
+    width: 75%;
+    background-color: #D9E8EE ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    padding-left: 40px;
+
+}
+.Information{
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+}
+.Section_Inférieure{
+    width:1000px;
+    height: 700px;
+    display: flex;
+}
+.Bloc_Gauche{
+    width: 25%;
+    background-color: #D9E8EE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.Fond_Bleu{
+    background-color: #B9D5E2;
+    padding: 2px;
+}
+.Fond_Gris{
+    background-color:#D9E8EE ;
+    width: 300px;
+    padding: 2px;
+    flex: 1;
+    align-self: center;
+}
+.Titre{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -15px;
+    text-align: center;
+}
+.Taille_Bloc{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Image_Texte{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+.Liste{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Bloc_Droit{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    gap: 30px;
+    padding-left: 40px;
+}
+.Sous_Bloc_Droit{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.Texte_Espacement{
+    display: flex;
+    width: 610px;
+    justify-content: space-between;
+}
+.Tableau{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Txt_Gris{
+    color:#727473 ;
+}                     
+.Tableau_Gris_Clair{
+    background-color:#F4F8FB ;
+    width: 190px;
+    padding: 15px;
+}
+.Tableau_Gris{
+    background-color:#D9E8EE ;
+    width: 190px;
+    padding: 15px;
+}
+.Txt_Gras{
+    font-weight: bolder;
+    color: black;
+}
+
